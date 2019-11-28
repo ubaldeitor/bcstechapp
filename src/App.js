@@ -13,7 +13,7 @@ import { Route, Switch, BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
-      <Container>
+    <Container>
       <BrowserRouter>
         <Header />
         <Switch>

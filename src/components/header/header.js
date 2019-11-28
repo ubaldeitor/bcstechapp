@@ -12,6 +12,8 @@ const style = {
     buttonStyle: {
         color: "#ffffff",
         backgroundColor: "#757575",
+        fontFamily: "Lato",
+        fontWeight: "bold",
         "&:hover": {
             background: '#00b7f5',
         }
