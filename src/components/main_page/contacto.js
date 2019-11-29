@@ -2,6 +2,14 @@ import React from 'react';
 import { Component } from "react";
 import { Grid, TextField, Button } from '@material-ui/core';
 
+const style={
+    contactTitle:{
+        fontFamily: "Raleway"
+    },
+    textContent: {
+        fontFamily: "Lato"
+    }
+}
 
 class Contacto extends Component {
     render() {
@@ -13,9 +21,9 @@ class Contacto extends Component {
                     </Grid>
                     <Grid item xs={12} lg={6}>
                         <div>
-                            <h3>Contacto</h3>
+                            <h3 style={style.contactTitle}>Contacto</h3>
                         </div>
-                        <div><p>Paseo de la reforma #1055
+                        <div><p style={style.textContent}>Paseo de la reforma #1055
                                         Col. Lomas del Marqués
                                         Querétaro, Qro. C.P.76146<br />
                                 Tel.: (442) 243 5036 <br />

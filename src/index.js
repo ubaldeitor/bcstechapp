@@ -28,10 +28,8 @@ const theme = createMuiTheme({
     },
     typography:{
       fontFamily:[
-        'Rubik',
-        'Roboto',
-        'Open Sans',
-        'sans-serif'
+        'Lato',
+        'Raleway'
       ]
     }
   });
